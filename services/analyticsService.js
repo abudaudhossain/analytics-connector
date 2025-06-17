@@ -51,14 +51,13 @@ async function getUserAnalytics(tokens, propertyId) {
       ],
       dimensions: [
         { name: "eventName" },
-        { name: "city" }
+        { name: "city" },
       ],
       metrics: [
         { name: "activeUsers" },
         { name: "totalUsers" },
         { name: "eventCount" },
         { name: "screenPageViews" },
-        // { name: "customEvent:label" },
       ],
     });
 
